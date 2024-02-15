@@ -1,26 +1,26 @@
 package org.factoriaf5.backend.controllers;
 
 public class BookResponse {
-    private Long book_id;
+    private Long id;
     private String title;
     private String author;
     private String isbn;
     private String section_code;
 
     public BookResponse(Long book_id, String title, String author, String isbn, String section_code) {
-        this.book_id = book_id;
+        this.id = book_id;
         this.title = title;
         this.author = author;
         this.isbn = isbn;
         this.section_code = section_code;
     }
 
-    public Long getBook_id() {
-        return book_id;
+    public Long getId() {
+        return id;
     }
 
-    public void setBook_id(Long book_id) {
-        this.book_id = book_id;
+    public void setId(Long book_id) {
+        this.id = book_id;
     }
 
     public String getTitle() {
