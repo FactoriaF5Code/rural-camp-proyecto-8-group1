@@ -54,6 +54,7 @@
   color: var(--negro);
   font-size: 1.8rem;
   gap: 3rem;
+  align-items: center;
 }
 .leftPartList {
   display: flex;
@@ -64,4 +65,26 @@ ul hr {
 height: 0.3rem;
 background-color: var(--marron);
 border: none;
+}
+
+.loanButton{
+  border: none;
+  background-color: var(--verde-oscuro);
+  height: 4.6rem;
+  width: 6.8rem;
+  border-radius: 1rem;
+}
+
+.closeButton{
+  border: none;
+  background-color: var(--rojo);
+  height: 4.6rem;
+ width: 6.8rem;
+ border-radius: 1rem;
+}
+
+.buttonsLoan{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
