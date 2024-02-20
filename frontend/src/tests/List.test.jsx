@@ -1,4 +1,4 @@
-import { render, fireEvent, screen } from "@testing-library/react";
+import { render, fireEvent, screen, waitFor } from "@testing-library/react";
 import { List } from "../components/List/List";
 import { test } from "vitest";
 import { setupServer } from "msw/node";
@@ -15,9 +15,14 @@ test("realiza una búsqueda y muestra los resultados", async () => {
   const button = screen.getByAltText("icono buscador");
 
   userEvent.click(button);
-
+ 
+  await waitFor(() => {
+    expect(
+      screen.getByText(/Harry Potter y la Piedra Filosofal/)
+    ).toBeInTheDocument();
+  });
   expect(
-    await screen.findByText(/Harry Potter y la Piedra Filosofal/)
+    screen.getByText(/Harry Potter y la Piedra Filosofal/)
   ).toBeInTheDocument();
   expect(
     screen.getByText(/Harry Potter y el Prisionero de Azkaban/)

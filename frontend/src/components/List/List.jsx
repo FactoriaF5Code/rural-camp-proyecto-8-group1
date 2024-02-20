@@ -13,6 +13,7 @@ export const List = () => {
       setResults(data);
     } catch (error) {
       console.error("Error al buscar", error);
+
     }
   };
   const handleKeyPress = (e) => {
