@@ -1,0 +1,65 @@
+.listContainer {
+  width: 130rem;
+  background-color: var(--crema);
+  min-height: 70rem;
+  padding: 5rem 6rem;
+  border-radius: 1rem;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.searchButton {
+  width: 8rem;
+  border-radius: 1rem 0 0 1rem;
+  cursor: pointer;
+}
+
+.searchInput {
+  width: 110rem;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.searchInput::placeholder,
+.searchInput {
+  color: var(--crema);
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.searchButton,
+.searchInput {
+  height: 6.4rem;
+  background-color: var(--marron);
+  border: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem auto;
+}
+.listTitle {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.leftPartList,
+.rightPartList {
+  display: flex;
+  color: var(--negro);
+  font-size: 1.8rem;
+  gap: 3rem;
+}
+.leftPartList {
+  display: flex;
+  align-items: center;
+}
+
+ul hr {
+  height: 0.3rem;
+  background-color: var(--marron);
+  border: none;
+}

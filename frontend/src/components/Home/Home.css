@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 8rem;
+}
+
+.sectionButtons {
+  display: flex;
+  justify-content: end;
+  margin-right: 6rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.sectionButtons button {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 1rem 1rem 0 0;
+  cursor: pointer;
+}
+
+.bgGreen {
+  background-color: var(--crema);
+  color: var(--negro);
+}
+
+.bgCream {
+  background-color: var(--verde-oscuro);
+  color: var(--crema);
+}

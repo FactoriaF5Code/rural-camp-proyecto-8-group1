@@ -1,0 +1,71 @@
+.errorMessage,
+.successMessage {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.errorMessage {
+  color: var(--rojo);
+}
+
+.successMessage {
+  color: var(--verde-oscuro);
+}
+
+.successInfo {
+  font-size: 1.7rem;
+  margin: 2rem 5rem;
+  color: var(--negro);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttonAddBook,
+.addForm button {
+  width: 26rem;
+  height: 6.4rem;
+  background-color: var(--verde-oscuro);
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  color: var(--crema);
+  font-size: 2.4rem;
+  font-weight: bold;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.buttonAddBook {
+  margin-top: 5.5rem;
+}
+.p-dialog .p-dialog-content,
+.p-dialog .p-dialog-header {
+  background-color: var(--crema);
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 3rem auto;
+  align-items: center;
+}
+
+.addForm input {
+  height: 4.4rem;
+  width: 80rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--marron);
+  padding: 1.5rem;
+}
+
+.addForm input::placeholder,
+.addForm input {
+  color: var(--crema);
+  font-weight: bold;
+  font-size: 2rem;
+}

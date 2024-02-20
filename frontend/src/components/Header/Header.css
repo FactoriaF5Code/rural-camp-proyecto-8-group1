@@ -1,0 +1,10 @@
+header h1 {
+  font-family: var(--titlefont);
+  font-weight: 400;
+  color: var(--negro);
+  font-size: 8rem;
+  margin-top: 2rem;
+  /* margin-left: 5rem; */
+  font-style: normal;
+  margin-bottom: 2rem;
+}
