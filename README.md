@@ -6,8 +6,9 @@
 1. [Información General](#Info-General)
 2. [Tecnologías](#Tecnologías)
 3. [Instalación](#Instalación)
-4. [Vistas](#Vistas)
-5. [Autores](#Autores)
+4. [Estructura del Backend](#Estructura-del-Backend)
+5. [Vistas](#Vistas)
+6. [Autores](#Autores)
 
 
 ### Información General
@@ -35,8 +36,11 @@ Git - GitHub
 
 ### Instalación
 
-Clonar [repositorio](https://github.com/FactoriaF5Code/rural-camp-proyecto-8-group1.git)
+Clonar [repositorio](https://github.com/FactoriaF5
 
+
+### Estructura del Backend
+<p align="center"><img width="400" alt="nombre" src="img/Method.png"></p>
 
 ### Vistas
 
@@ -44,7 +48,7 @@ Clonar [repositorio](https://github.com/FactoriaF5Code/rural-camp-proyecto-8-gro
 <p align="center"><img width="400" alt="nombre" src="img/image (2).png"></p>
 <p align="center"><img width="400" alt="nombre" src="img/image (1).png"></p>
 <p align="center"><img width="400" alt="nombre" src="img/image.png"></p>
-<p align="center"><img width="400" alt="nombre" src="img/Method.png"></p>
+
 
 
 ### Autores
